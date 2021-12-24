@@ -4,3 +4,9 @@ export const userCreator = (user) => {
         payload: user,
     };
 };
+
+export const userLogout = ()=>{
+    return{
+        type:"LOGOUT_USER",
+    };
+}
